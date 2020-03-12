@@ -26,7 +26,7 @@ ${TOTALTEST_JOBCARD}
 //STEPLIB DD DISP=SHR,DSN=SYS2.CW.&CWGACX..SLCXLOAD
 //*  where MLCXnnn is MLCX170 OR HIGHER
 //        DD DISP=SHR,DSN=HHKYXL0.XPED.LOAD     
-//*       DD DISP=SHR,DSN=CEE.SCEERUN  
+//        DD DISP=SHR,DSN=CEE.SCEERUN  
 //*
 //* The following lines will initialize storage to zeroes to avoid 
 //* uninitialized storage assertion miscompares.
