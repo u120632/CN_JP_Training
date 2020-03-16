@@ -48,5 +48,6 @@ DEBUG(OFF)
 //*
 //*      Optionally add your custom DD statements
 //*DD1 DD DSN=HLQ.CUSTOM.TEST.LOAD,DISP=SHR
+//EMPFILE DD DSN=HHKYXL0.XPED.JCL(CWXTDATA),DISP=SHR  
 //SYSPRINT DD SYSOUT=*
 //*

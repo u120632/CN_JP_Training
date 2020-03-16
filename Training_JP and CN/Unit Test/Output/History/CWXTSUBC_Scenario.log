@@ -3,13 +3,12 @@
 
  STTR043I Initializing simulation environment for: COBOL V4
  STTR043I Initializing simulation environment for: COBOL V5
- STTR011I totaltest zTargetRunner v170200 on 2020-03-11 21:33.56��������������������������������������
+ STTR011I totaltest zTargetRunner v170200 on 2020-03-12 08:11.13��������������������������������������
  STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
  STTR013I Processing test suite CWXTSUBC_Scenario
  STTR014I Processing test scenario CWXTSUBC_Scenario
  STTR028I Processing test case CWXTSUBCCase1
  STTR006I Executing target CWXTSUBC����������������������������������������������������
- CEE3204S The system detected a protection exception (System Completion Code=0C4).
-          From compile unit CWXTSUBC at entry point CWXTSUBC at compile unit offset +003C88C8 at entry offset +003C88C8
-           at address 003F7050.
-          Possible Bad Branch:  Statement:   Offset: -FFFE843E
+ CEE3201S The system detected an operation exception (System Completion Code=0C1).
+          From compile unit CWXTSUBC at entry point CWXTSUBC at compile unit offset +00CD2FB6 at entry offset +00CD2FB6
+           at address 00D0519E.

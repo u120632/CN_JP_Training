@@ -1,0 +1,22 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/CWXTCOB_Stub.stub" target="EMPFILE" token="80000">
+  <stub:description>Created: 2020-3-12 20:49:35</stub:description>
+  <stub:stubdata id="0" name="CWXTCOB">
+    <stub:interface>../Interfaces/CWXTCOB_CWXTCOB_Stub_PARMINFO.interface#Unit%20Test/Interfaces/CWXTCOB_CWXTCOB_Stub_PARMINFO.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTCOB_CWXTCOB_Stub_PARMINFO.listructure#Unit%20Test/Structures/CWXTCOB_CWXTCOB_Stub_PARMINFO.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTCOB_CWXTCOB_Stub_PARMINFO.listructure#PARMINFO" id="arg0.PARMINFO">
+        <properties:properties>
+          <properties:property name="value" type="string">0005F0F0F0F0F3</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:returncode listructure="../Structures/CWXTCOB_CWXTCOB_Stub_RETURN-CODE.listructure#Unit%20Test/Structures/CWXTCOB_CWXTCOB_Stub_RETURN-CODE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTCOB_CWXTCOB_Stub_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:returncode>
+  </stub:stubdata>
+</stub:stub>

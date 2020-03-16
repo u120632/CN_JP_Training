@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 19.6.4.v20200128-1417_228?>
-<!--Topaz for Total Test 19.6.4.v20200128-1417_228 2020-3-12 19:51:17-->
+<!--Topaz for Total Test 19.6.4.v20200128-1417_228 2020-3-12 20:22:25-->
 <testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Unit%20Test/Scenarios/CWXTCOB_Scenario.testscenario">
   <testscenario:description></testscenario:description>
   <testscenario:testcases>
@@ -18,10 +18,12 @@
           </properties:properties>
         </testcase:data>
       </testcase:input>
+      <testcase:output listructure="../Structures/CWXTCOB_PARMINFO.listructure#Unit%20Test/Structures/CWXTCOB_PARMINFO.listructure"/>
       <testcase:checkconditions>
         <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
       </testcase:checkconditions>
       <testcase:stubs>
+        <testcase:stub>../Stubs/CWXTCOB_Stub.stub#Unit%20Test/Stubs/CWXTCOB_Stub.stub</testcase:stub>
         <testcase:stub>../Stubs/CWXTCOB_CWXTDATE.stub#Unit%20Test/Stubs/CWXTCOB_CWXTDATE.stub</testcase:stub>
         <testcase:stub>../Stubs/CWXTCOB_CWXTSUBC.stub#Unit%20Test/Stubs/CWXTCOB_CWXTSUBC.stub</testcase:stub>
       </testcase:stubs>

@@ -1,9 +1,9 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/CWXTCOB_CWXTDATE.stub" stubtype="Program" target="CWXTDATE" token="40000">
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub" stubtype="Program" target="CWXTDATE" token="60000">
   <properties:properties>
     <properties:property name="programtype" type="string">ProgramStubAssertion</properties:property>
   </properties:properties>
-  <stub:description>Created: 2020-3-12 19:38:29</stub:description>
+  <stub:description>Created: 2020-3-12 20:17:08</stub:description>
   <stub:stubdata id="0" name="CWXTDATE">
     <stub:interface>../Interfaces/CWXTCOB_CWXTDATE.interface#Unit%20Test/Interfaces/CWXTCOB_CWXTDATE.interface</stub:interface>
     <stub:inputinterface>../Interfaces/CWXTCOB_CWXTDATE.interface#Unit%20Test/Interfaces/CWXTCOB_CWXTDATE.interface</stub:inputinterface>
@@ -797,7 +797,7 @@
     <stub:input listructure="../Structures/CWXTCOB_CWXTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTCOB_CWXTDATE_YRS-OF-SERVICE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_CWXTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
         <properties:properties>
-          <properties:property name="value" type="string">F2F8</properties:property>
+          <properties:property name="value" type="string">F3F4</properties:property>
         </properties:properties>
       </stub:data>
     </stub:input>
@@ -811,7 +811,7 @@
     <stub:input listructure="../Structures/CWXTCOB_CWXTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWXTCOB_CWXTDATE_WA-EMP-HIRE-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_CWXTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F8F8F0F2F2F9</properties:property>
+          <properties:property name="value" type="string">F8F2F0F9F3F0</properties:property>
         </properties:properties>
       </stub:data>
     </stub:input>
